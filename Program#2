@@ -1,0 +1,35 @@
+Check if a String in Java contains only whitespaces.
+
+
+public class Whitespaces { 
+ 
+  public static boolean whitespaces(String str) 
+
+    {
+           if (str.trim().isEmpty()) 
+             return true;
+          else
+            return false; 
+}
+    public static void main(String[] args) { 
+
+        String ad1= "ADIRAJ"; 
+
+        String ad2 = "     "; 
+
+     System.out.println(ad1 
+
+                          +" "+ "only have whitespaces"
+
+                          +" "+whitespaces(ad1)); 
+
+        System.out.println(ad2 
+
+                          +" "+ " only have whitespaces "
+
+                          +" " +whitespaces(ad2));
+ 
+
+    } 
+} 
+
